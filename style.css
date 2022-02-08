@@ -5,6 +5,7 @@ body {
 }
 
 .Web-site {
+  display: flex;
 }
 
 .header {
