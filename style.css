@@ -1,15 +1,35 @@
 body {
   min-height: 100vh;
+  width: 100vw;
   overflow: hidden;
   font-family: Arial, Helvetica, sans-serif, sans-serif;
+  color: white;
+  margin: 0;
 }
 
 .Web-site {
   display: flex;
+  flex-direction: column;
 }
 
 .header {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
   background-color: #1f2937;
   font-family: Arial, Helvetica, sans-serif;
+  color: #f9faf8;
+  width: 100vw;
+  margin-left: -1rem;
+}
+.header-left {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 1rem;
 }
